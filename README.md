@@ -10,13 +10,10 @@ This repo will let you run CTFs on Ubuntu 20.04. You will also be able to run CT
 2. Run the `docker_compose_ubuntu.sh` script in this repo:
 `sudo ./docker_compose_ubuntu.sh`
 
-3. In the terminal, go to the `ssl` directory (`cd ssl`)
+3. To generate your Public-Private Key Pair, run the `generate_crt.sh` script in this repo:
+`sudo ./generate_crt.sh`
 
-4. Generate your Public-Private Key Pair, CSR, and Certificate for your site. If your site name is `mywifictf.com`, run the following commands:
-`openssl req -newkey rsa:2048 -x509 -sha256 -days 3650 -nodes -out ctfd.crt -keyout ctfd.key`
-Make sure to name your .crt and .key files exactly as specified in the command above: ctfd.crt and ctfd.key, respectively. Follow the prompts and enter all required information.
-
-5. Edit the `hostname` line in the `docker-compose-production.yml` file to match the hostname you have defined to point to your server.
+4. Edit the `hostname` line in the `docker-compose-production.yml` file to match the hostname you have defined to point to your server.
 For example, if your server name is `mywifictf.com`, then change the `hostname` line in the `docker-compose-production.yml` file to `mywifictf.com`.
 
 ## Run the CTFd environment
