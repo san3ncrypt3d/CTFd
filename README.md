@@ -18,7 +18,7 @@ For example, if your server name is `myctf.com`, then change the `hostname` line
 
 ## Run the CTFd environment
 
-In the terminal, run `docker-compose -f docker-compose.yml -f docker-compose-production.yml up`.
+In the terminal, run `sudo docker-compose -f docker-compose.yml -f docker-compose-production.yml up`.
 
 
 
