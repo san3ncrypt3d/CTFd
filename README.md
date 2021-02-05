@@ -14,7 +14,7 @@ This repo will let you run CTFs on Ubuntu 20.04. You will also be able to run CT
 `sudo ./generate_crt.sh`
 
 4. Edit the `hostname` line in the `docker-compose-production.yml` file to match the hostname you have defined to point to your server.
-For example, if your server name is `mywifictf.com`, then change the `hostname` line in the `docker-compose-production.yml` file to `mywifictf.com`.
+For example, if your server name is `myctf.com`, then change the `hostname` line in the `docker-compose-production.yml` file to `myctf.com`.
 
 ## Run the CTFd environment
 
