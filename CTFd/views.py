@@ -167,7 +167,7 @@ def setup():
         <img class="w-100 mx-auto d-block" style="max-width: 500px;padding: 50px;padding-top: 14vh;" src="{default_ctf_banner_location}" />
         <h3 class="text-center">
             <p>A Capture the Flag by San3ncrypt3d <a href="https://san3ncrypt3d.com">San3ncrypt3d</a></p>
-            <p>Follow us on social media:</p>
+            <p>Follow m3 on social media:</p>
             <a href="https://twitter.com/san3ncrypt3d"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>&nbsp;
             <a href="https://facebook.com/"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>&nbsp;
             <a href="https://github.com/san3ncrypt3d"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
