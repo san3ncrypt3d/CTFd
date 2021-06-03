@@ -1,4 +1,4 @@
-# Run CTFd on Ubuntu 20.04
+# Run CTFd on Ubuntu 20.04 & 18.4
 
 This repo will let you run CTFs on Ubuntu 20.04. You will also be able to run CTFd as a secure (HTTPS) site.
 
@@ -26,4 +26,3 @@ In the terminal, run `sudo docker-compose -f docker-compose.yml -f docker-compos
 ## Credits
 
 - CTFd by [CTFd](https://github.com/CTFd/CTFd)
-- HTTPS by [Josh Grossman](https://github.com/tghosth/CTFd-docker-deploy)
