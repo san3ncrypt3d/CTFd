@@ -1,0 +1,8 @@
+cd ctfd
+chmod +x docker_ubuntu.sh
+chmod +x docker_compose_ubuntu.sh
+./docker_ubuntu.sh
+./docker_compose_ubuntu.sh
+./generate_crt.sh
+sudo nano docker-compose-production.yml - replace localhost with your domain
+sudo docker-compose -f docker-compose.yml -f docker-compose-production.yml up
